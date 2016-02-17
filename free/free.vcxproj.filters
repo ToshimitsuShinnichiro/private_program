@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{cf427e7a-2200-42bf-9362-8d294eab54fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{d80408b4-05d3-4438-94eb-848eb51c5ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\obj">
+      <UniqueIdentifier>{c8042a02-050e-463d-a7d2-49f460d6951b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\obj">
+      <UniqueIdentifier>{cb6b15f3-7c59-4f98-b331-04580bb4d96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\renderer">
+      <UniqueIdentifier>{76729562-122b-4f26-bb67-dab697ec3644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\renderer">
+      <UniqueIdentifier>{97f5cc5c-431c-42c5-a28b-309bb9d08290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\action">
+      <UniqueIdentifier>{3eb932df-ae41-4632-8256-2e5cf5345c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\action">
+      <UniqueIdentifier>{4a6935ac-e859-485f-bfd9-96cb69aa326b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\declaration">
+      <UniqueIdentifier>{a2606787-7d83-47c6-bceb-7c9d3395633d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\decralation">
+      <UniqueIdentifier>{6a954177-f8f8-4a65-b130-5a9c1dea515c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\physics">
+      <UniqueIdentifier>{7eaf150c-dcf1-425b-abeb-5b5ce8818e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\physics">
+      <UniqueIdentifier>{6a46283e-d518-4cec-89ef-5a9f7c865ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\input">
+      <UniqueIdentifier>{a7842c47-5925-4114-8930-31f58618fb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{3764ad1f-87ce-4951-ab79-cd3cf1aaa32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common">
+      <UniqueIdentifier>{9e4541da-c1af-4638-b7d1-d32bf0cbb2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\sound">
+      <UniqueIdentifier>{6292de1e-5838-41f3-9b94-c8893edc6890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sound">
+      <UniqueIdentifier>{3c2b0a30-30f4-4430-8c70-abba2b140a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\data">
+      <UniqueIdentifier>{0097a69b-750c-4850-9d5e-82771be91936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\data">
+      <UniqueIdentifier>{a24ae4d2-25a6-4493-a10a-811c3cb9bb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\common">
+      <UniqueIdentifier>{3f72d2ab-49b6-4cf9-870d-bff12ee0f775}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="joypad.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="RandLCG.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\data</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3D.h">
+      <Filter>ヘッダー ファイル\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="product.h">
+      <Filter>ヘッダー ファイル\physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="joypad.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>ソース ファイル\input</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="RandLCG.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\data</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>ソース ファイル\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3D.cpp">
+      <Filter>ソース ファイル\physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
